@@ -7,7 +7,7 @@
 </div>
 @section('content')
 
-    <section class="py-5 min-vh-100">
+    <section class="py-5 min-vh-100 px-3">
         <div class="d-flex justify-content-between align-items-end mb-4 border-bottom border-secondary pb-3">
             <div>
                 <span class="text-danger fw-bold text-uppercase small" style="letter-spacing: 1.5px;">Our
@@ -19,7 +19,7 @@
             </div>
         </div>
 
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
             @foreach ($cameras as $camera)
                 <div class="col">
                     <div class="card h-100 border-0 shadow-sm" style="background-color: #3D5D91;">

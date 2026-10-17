@@ -3,7 +3,7 @@
 @section('title', 'ABOUT US')
 
 @section('content')
-    <section class="min-vh-100 py-5">
+    <section class="min-vh-100 py-5 px-3">
         <div class="d-flex justify-content-between align-items-end mb-4 border-bottom border-secondary pb-3">
             <div>
                 <span class="text-danger fw-bold text-uppercase small" style="letter-spacing: 1.5px;">Tentang Kita</span>
