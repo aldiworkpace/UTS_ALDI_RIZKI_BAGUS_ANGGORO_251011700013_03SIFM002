@@ -9,11 +9,11 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body style="background-color: #f4f1ea;">
+<body style="background-color: #ecebe9;">
     <header class="sticky-top pt-4">
         @include('partials.header')
     </header>
-    <div class="container-4">
+    <div class="container">
         @yield('content')
     </div>
     @include('partials.footer')

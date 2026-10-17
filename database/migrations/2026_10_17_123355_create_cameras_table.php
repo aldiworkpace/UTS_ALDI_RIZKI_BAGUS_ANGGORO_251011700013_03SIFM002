@@ -13,6 +13,12 @@ return new class extends Migration
     {
         Schema::create('cameras', function (Blueprint $table) {
             $table->id();
+            $table->string('brand');
+            $table->string('model');
+            $table->integer('rent_price');
+            $table->string('image');
+            $table->text('description');
+            $table->string('type');
             $table->timestamps();
         });
     }
