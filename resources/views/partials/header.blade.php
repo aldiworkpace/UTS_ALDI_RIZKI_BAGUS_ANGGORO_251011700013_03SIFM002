@@ -27,10 +27,10 @@
 
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center ">
                     <li class="nav-item">
-                        <a class="navbar-brand text-danger" href="#">PERCAYA PADA KAMI</a>
+                        <a class="navbar-brand text-danger" href="#">RENTAL SAMA KAMI</a>
                     </li>
                     <li class="nav-item">
-                        <img src="{{ asset('images/assets/camera.gif') }}" alt="CAMERA" style="width: 50px;">
+                        <img src="{{ asset('images/assets/camera.gif') }}" alt="CAMERA" style="width: 60px;">
                     </li>
                 </ul>
             </div>

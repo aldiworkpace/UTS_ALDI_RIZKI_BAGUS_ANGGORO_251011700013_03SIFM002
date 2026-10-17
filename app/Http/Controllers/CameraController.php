@@ -10,7 +10,7 @@ class CameraController extends Controller
     //
     public function index()
     {
-        $cameras = Camera::paginate(3);
+        $cameras = Camera::paginate(4);
         return view('page.camera', compact('cameras'));
     }
 }

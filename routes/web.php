@@ -8,3 +8,5 @@ Route::get('/', function () {
 });
 
 Route::get('/camera', [CameraController::class, 'index'])->name('camera.index');
+
+Route::get('/camera/{id}', [CameraController::class, 'show'])->name('camera.show');
