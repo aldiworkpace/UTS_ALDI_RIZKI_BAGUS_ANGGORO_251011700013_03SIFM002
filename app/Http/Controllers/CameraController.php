@@ -13,4 +13,10 @@ class CameraController extends Controller
         $cameras = Camera::paginate(4);
         return view('page.camera', compact('cameras'));
     }
+    public function show($id)
+    {
+        $cameras = Camera::findOrFail($id);
+
+        return view('page.detail_sewa', compact('cameras'));
+    }
 }

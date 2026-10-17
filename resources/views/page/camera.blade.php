@@ -1,8 +1,12 @@
 @extends('layouts.app')
 
 @section('title', 'CAMERA')
-
+<div class="position-relative w-100" style="height: 0; z-index: -1;">
+    <img src="{{ asset('images/assets/cam.png') }}" class="position-absolute"
+        style="top: 500px; left: 70%; max-width: 700px;">
+</div>
 @section('content')
+
     <section class="py-5 min-vh-100">
         <div class="d-flex justify-content-between align-items-end mb-4 border-bottom border-secondary pb-3">
             <div>
@@ -50,7 +54,8 @@
                                     <small class="text-white" style="font-size: 0.75rem;">/hari</small>
                                 </div>
 
-                                <a href="#" class="btn btn-danger rounded-0 px-3 py-2 fw-semibold">
+                                <a href="{{ route('camera.show', $camera->id) }}"
+                                    class="btn btn-danger rounded-0 px-3 py-2 fw-semibold">
                                     Detail
                                 </a>
                             </div>
