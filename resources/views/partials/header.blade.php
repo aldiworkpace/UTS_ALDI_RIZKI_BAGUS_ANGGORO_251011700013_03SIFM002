@@ -15,13 +15,22 @@
                         <a class="nav-link" href="#">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Daftar Camera</a>
+                        <a class="nav-link" href="#">CAMERA</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">ABOUT US</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">CONTACT US</a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center ">
+                    <li class="nav-item">
+                        <a class="navbar-brand text-danger" href="#">PERCAYA PADA KAMI</a>
+                    </li>
+                    <li class="nav-item">
+                        <img src="{{ asset('images/assets/camera.gif') }}" alt="CAMERA" style="width: 50px;">
                     </li>
                 </ul>
             </div>

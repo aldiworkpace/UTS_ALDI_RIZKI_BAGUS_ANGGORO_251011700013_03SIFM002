@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'DAFTAR CAMERA')
+@section('title', 'CAMERA')
 
 @section('content')
     <section class="py-5 min-vh-100">
@@ -18,10 +18,9 @@
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
             @foreach ($cameras as $camera)
                 <div class="col">
-                    <div class="card h-100 border-0 shadow-sm camera-card">
-                        <div class="position-relative bg-white text-center p-4 card-img-wrapper">
-                            <span
-                                class="badge bg-dark position-absolute top-0 start-0 m-3 px-3 py-2 text-uppercase badge-type">
+                    <div class="card h-100 border-0 shadow-sm" style="background-color: #3D5D91">
+                        <div class="position-relative bg-white text-center p-4">
+                            <span class="badge bg-dark position-absolute top-0 start-0 m-3 px-3 py-2 text-uppercase">
                                 {{ $camera->type }}
                             </span>
 
@@ -51,7 +50,7 @@
                                     <small class="text-muted" style="font-size: 0.75rem;">/hari</small>
                                 </div>
 
-                                <a href="#" class="btn btn-danger rounded-0 px-3 py-2 fw-semibold btn-rent">
+                                <a href="#" class="btn btn-danger rounded-0 px-3 py-2 fw-semibold">
                                     Detail
                                 </a>
                             </div>
