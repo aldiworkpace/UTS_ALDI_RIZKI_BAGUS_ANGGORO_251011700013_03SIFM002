@@ -13,7 +13,7 @@
                 </h2>
             </div>
         </div>
-        <div class="card">
+        <div class="container">
             <div class="card-header fw-bold">
                 Detail Kamera
             </div>

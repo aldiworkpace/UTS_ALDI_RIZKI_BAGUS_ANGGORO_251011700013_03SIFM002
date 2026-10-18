@@ -16,8 +16,8 @@
         <div class="container py-4">
             <div class="row align-items-center g-5">
                 <div class="col-md-6 text-center">
-                    <img src="{{ asset('images/assets/hero.png') }}" alt="Tentang Aldi Rental"
-                        class="img-fluid rounded shadow-sm p-4" style="max-height: 350px; object-fit: contain;">
+                    <img src="{{ asset('images/assets/wisuda.jpg') }}" alt="Tentang Aldi Rental"
+                        class="img-fluid rounded shadow-sm p-4" style="max-height: 450px; object-fit: contain;">
                 </div>
 
                 <div class="col-md-6">
@@ -28,9 +28,23 @@
                         <strong>ALDI RENTAL</strong> adalah penyedia layanan sewa kamera dan perlengkapan fotografi
                         terpercaya. Kami menyediakan berbagai jenis kamera mulai dari Mirrorless, DSLR, Action Camera,
                         hingga Kamera Analog dengan kondisi mantap, bersih, dan siap pakai untuk kebutuhan tugas kuliah,
-                        traveling, maupun proyek profesional.
+                        traveling, maupun proyek profesional, sewa lewat WA.
                     </p>
-
+                    <a href="https://wa.me/6281234567890" target="_blank" class="btn btn-success">
+                        <i class="bi bi-whatsapp me-1"></i> Sewa via WhatsApp
+                    </a>
+                    <div class="d-flex mt-2 align-items-center">
+                        <h6 class="fw-bold mb-0">TikTok : @</h6>
+                        <a href="#" class="text-muted text-decoration-none">ALDI_RENTAL</a>
+                    </div>
+                    <div class="d-flex mt-2 align-items-center">
+                        <h6 class="fw-bold mb-0">Instagram : @</h6>
+                        <a href="#" class="text-muted text-decoration-none">ALDI_RENTAL</a>
+                    </div>
+                    <div class="d-flex mt-2 align-items-center">
+                        <h6 class="fw-bold mb-0">github : @</h6>
+                        <a href="#" class="text-muted text-decoration-none">aldiworkpace</a>
+                    </div>
 
                 </div>
 
