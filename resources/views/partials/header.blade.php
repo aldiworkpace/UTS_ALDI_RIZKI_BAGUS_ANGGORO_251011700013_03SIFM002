@@ -12,13 +12,16 @@
             <div class="collapse navbar-collapse " id="navbar">
                 <ul class="navbar-nav mb-2 mb-lg-0 gap-lg-2 align-items-center">
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url('/') }}">HOME</a>
+                        <a class="nav-link {{ Request::is('/') ? 'active fw-bold' : '' }}"
+                            href="{{ url('/') }}">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url('/camera') }}">CAMERA</a>
+                        <a class="nav-link {{ Request::is('camera') ? 'active fw-bold' : '' }}"
+                            href="{{ url('/camera') }}">CAMERA</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url('/about') }}">ABOUT US</a>
+                        <a class="nav-link {{ Request::is('about') ? 'active fw-bold' : '' }}"
+                            href="{{ url('/about') }}">ABOUT US</a>
                     </li>
                 </ul>
 
